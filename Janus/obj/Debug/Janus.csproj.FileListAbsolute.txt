@@ -1,0 +1,14 @@
+D:\Desarrollo\MonoGames\Janus_2.0.0.2_20140604\Janus\bin\Debug\Janus.XML
+D:\Desarrollo\MonoGames\Janus_2.0.0.2_20140604\Janus\bin\Debug\Janus.dll
+D:\Desarrollo\MonoGames\Janus_2.0.0.2_20140604\Janus\bin\Debug\Janus.pdb
+D:\Desarrollo\MonoGames\Janus_2.0.0.2_20140604\Janus\obj\Debug\Janus.csprojAssemblyReference.cache
+D:\Desarrollo\MonoGames\Janus_2.0.0.2_20140604\Janus\obj\Debug\Janus.csproj.CoreCompileInputs.cache
+D:\Desarrollo\MonoGames\Janus_2.0.0.2_20140604\Janus\obj\Debug\Janus.dll
+D:\Desarrollo\MonoGames\Janus_2.0.0.2_20140604\Janus\obj\Debug\Janus.pdb
+D:\Desarrollo\MonoGames\Janus_2litenetlib\Janus\bin\Debug\Janus.XML
+D:\Desarrollo\MonoGames\Janus_2litenetlib\Janus\bin\Debug\Janus.dll
+D:\Desarrollo\MonoGames\Janus_2litenetlib\Janus\bin\Debug\Janus.pdb
+D:\Desarrollo\MonoGames\Janus_2litenetlib\Janus\obj\Debug\Janus.csproj.CoreCompileInputs.cache
+D:\Desarrollo\MonoGames\Janus_2litenetlib\Janus\obj\Debug\Janus.dll
+D:\Desarrollo\MonoGames\Janus_2litenetlib\Janus\obj\Debug\Janus.pdb
+D:\Desarrollo\MonoGames\Janus_2litenetlib\Janus\obj\Debug\Janus.csprojAssemblyReference.cache

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Janus.LidgrenClient</name>
+    </assembly>
+    <members>
+        <member name="T:Janus.ClientConnectedHandler">
+            <summary>
+            Triggered when the client successfully connects to the timeline synchronizer
+            </summary>
+            <param name="index">Client index number as assigned by the timeline synchronizer</param>
+        </member>
+        <member name="T:Janus.ClientDisconnectedHandler">
+            <summary>
+            Triggered when the client disconnects from the timeline synchronizer
+            </summary>
+            <param name="reason">Reason for disconnection</param>
+        </member>
+        <member name="T:Janus.TimelineClient">
+            <summary>
+            Timeline client handles networking between client and the timeline server
+            Handles connection, disconnection, timing and processing of incoming and outgoing messages
+            </summary>
+        </member>
+        <member name="E:Janus.TimelineClient.Connected">
+            <summary>
+            Triggered when the client successfully connects to the timeline synchronizer
+            </summary>
+        </member>
+        <member name="E:Janus.TimelineClient.Disconnected">
+            <summary>
+            Triggered when the client disconnects from the timeline synchronizer
+            </summary>
+        </member>
+        <member name="P:Janus.TimelineClient.IsStarted">
+            <summary>
+            Status of the network client
+            </summary>
+            <returns>True if the net client is running</returns>
+        </member>
+        <member name="P:Janus.TimelineClient.IsConnected">
+            <summary>
+            Status of the network connection
+            </summary>
+            <returns>True if connected</returns>
+        </member>
+        <member name="P:Janus.TimelineClient.Now">
+            <summary>
+            Current time measured in seconds since the timeline manager started
+            </summary>
+        </member>
+        <member name="P:Janus.TimelineClient.Index">
+            <summary>
+            Unique index for the timeline client - assigned by the timeline synchronizer when connecting
+            </summary>
+        </member>
+        <member name="P:Janus.TimelineClient.RTT">
+            <summary>
+            Round trip time in seconds between the client and the timeline synchronizer
+            </summary>
+        </member>
+        <member name="M:Janus.TimelineClient.Start(System.Boolean,System.Boolean)">
+            <summary>
+            Start timeline client - starts separate thread that processes incoming messages
+            </summary>
+            <param name="autoAdd">If true, automatically connect to the timeline synchronizer using information found in TimelineClient.ini.  If false, must connect manually using Connect</param>
+            <param name="autoStep">If true, automatically increment time.  If false, time must be manually incremented by calling Step</param>
+        </member>
+        <member name="M:Janus.TimelineClient.LoadSettings">
+            <summary>
+            Get networking configuration from ini file
+            </summary>
+        </member>
+        <member name="M:Janus.TimelineClient.Connect(System.String,System.Int32)">
+            <summary>
+            Connect to the timeline server
+            </summary>
+            <param name="serverAddress">Ip address of the server</param>
+            <param name="serverPort">Port number on server</param>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:Janus.TimelineClient.Update" -->
+        <member name="M:Janus.TimelineClient.Step(System.Double)">
+            <summary>
+            Increments the current time
+            Triggers events for connection and disconnection
+            </summary>
+            <param name="deltaTime">Time step size in seconds</param>
+        </member>
+        <member name="M:Janus.TimelineClient.Stop">
+            <summary>
+            Stops net client
+            </summary>
+        </member>
+    </members>
+</doc>

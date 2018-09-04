@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{FABE52DA-9233-432F-A6C8-F2C8CBEE076C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janus", "Janus\Janus.csproj", "{F9F54C50-4F89-4409-9B5E-E4D3233535BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janus.LiteNetLibClient", "Janus.LiteNetLibClient\Janus.LiteNetLibClient.csproj", "{12623C5E-2FE2-4705-850A-257E2E1FCE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janus.LiteNetLibServer", "Janus.LiteNetLibServer\Janus.LiteNetLibServer.csproj", "{48D36F66-033A-4014-BDAB-F1CDD7502CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janus.LiteNetLibDedicatedServer", "Janus.LiteNetLibDedicatedServer\Janus.LiteNetLibDedicatedServer.csproj", "{B6A06EF1-B510-4341-8ED0-56586254AF2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanusTest", "JanusTest\JanusTest.csproj", "{ECB531D6-F152-443F-A6A2-5EA0C6DDC858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telepointer", "Demos\Telepointer\Telepointer.csproj", "{3187DC46-EFBC-4492-91FA-275B00D25C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9F54C50-4F89-4409-9B5E-E4D3233535BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F54C50-4F89-4409-9B5E-E4D3233535BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F54C50-4F89-4409-9B5E-E4D3233535BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F54C50-4F89-4409-9B5E-E4D3233535BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12623C5E-2FE2-4705-850A-257E2E1FCE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12623C5E-2FE2-4705-850A-257E2E1FCE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12623C5E-2FE2-4705-850A-257E2E1FCE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12623C5E-2FE2-4705-850A-257E2E1FCE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D36F66-033A-4014-BDAB-F1CDD7502CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D36F66-033A-4014-BDAB-F1CDD7502CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D36F66-033A-4014-BDAB-F1CDD7502CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D36F66-033A-4014-BDAB-F1CDD7502CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A06EF1-B510-4341-8ED0-56586254AF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A06EF1-B510-4341-8ED0-56586254AF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A06EF1-B510-4341-8ED0-56586254AF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A06EF1-B510-4341-8ED0-56586254AF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB531D6-F152-443F-A6A2-5EA0C6DDC858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB531D6-F152-443F-A6A2-5EA0C6DDC858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB531D6-F152-443F-A6A2-5EA0C6DDC858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB531D6-F152-443F-A6A2-5EA0C6DDC858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3187DC46-EFBC-4492-91FA-275B00D25C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3187DC46-EFBC-4492-91FA-275B00D25C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3187DC46-EFBC-4492-91FA-275B00D25C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3187DC46-EFBC-4492-91FA-275B00D25C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3187DC46-EFBC-4492-91FA-275B00D25C00} = {FABE52DA-9233-432F-A6C8-F2C8CBEE076C}
+	EndGlobalSection
+EndGlobal
